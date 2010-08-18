@@ -7,10 +7,6 @@ from django.conf import settings
 
 # Create your views here.
 
-# @login_required
-from future_builtins import filter
-from Skype4Py.utils import _EventHandlingThread
-
 class no_arvore:
     nome = 'nomeArea'
     agrupador = False
