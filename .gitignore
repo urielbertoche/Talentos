@@ -1,0 +1,11 @@
+# Ignorando arquivos de banco
+*.db
+*.sqlite
+
+# Ignorando arquivos de bytecode do python
+*.pyc
+
+# Ignorando arquivos de backup do gedit
+*~
+
+
