@@ -7,6 +7,9 @@ LOCAL = lambda *args: os.path.join(ROOT, *args)
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+def production_mode():
+    return 'WORKSPACE' in os.environ
+
 import logging
 logging.basicConfig(
     level = logging.DEBUG,
